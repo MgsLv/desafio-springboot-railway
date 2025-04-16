@@ -19,7 +19,7 @@ Java RESTful API desenvolvida como estudo prático com base na Santander Dev Wee
 ```mermaid
 erDiagram
     CLIENTE ||--o{ ALUGUEL : realiza
-    JOGO ||--o{ ALUGUEL : é_alugado
+    JOGO ||--o{ ALUGUEL : alugado_por
 
     CLIENTE {
         int id
